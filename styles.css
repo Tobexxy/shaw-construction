@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.logos{
+    height: 80px;
+    
+}
+
+.baky{
+    background-image: url("/img/close-up-hard-hat-holding-by-construction-worker.jpg");
+    height: 100vh;
+}
