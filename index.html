@@ -23,24 +23,26 @@
                   </svg>
             </button>
 
-            <div class="collapse navbar-collapse" id="btn">
-                <ul class="nav nav-pills ms-auto " id="pills-tab" role="tablist">
+            <div class="collapse navbar-collapse " id="btn">
+                <ul class="nav navbar-nav nav-underline  ms-auto " id="pills-tab" role="tablist">
+                  
                     <li class="nav-item " role="presentation">
-                    <button class="nav-link active mx-2 fs-0" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    <button class="nav-link active mx-3 fs-0" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <button class="nav-link  fs-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">About</button>
+                    <button class="nav-link mx-3 fs-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">About</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <button class="nav-link  fs-0" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Services</button>
+                    <button class="nav-link  mx-3 fs-0" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Services</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <button class="nav-link fs-0" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Portfolio</button>
+                    <button class="nav-link mx-3 fs-0 " id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Portfolio</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <button class="nav-link mx-1 fs-0" id="pills-gg-tab" data-bs-toggle="pill" data-bs-target="#pills-gg" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Contact</button>
+                    <button class="nav-link mx-3 fs-0" id="pills-gg-tab" data-bs-toggle="pill" data-bs-target="#pills-gg" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Contact</button>
                     </li>
                 </ul>
+            
             </div>
     
         </nav>
@@ -50,10 +52,36 @@
       
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
       
+
+        <div class="container my-5">
+          <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Best Construction Services to Use</h1>
+              <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+              </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3 paul" src="/img/paul logo.png" alt="" width="720">
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
       <!--about section-->
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+          <h2 class="fw-normal">Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+
 
       </div>
 
@@ -129,7 +157,7 @@
       </div>
 
       <!--portfolio section-->
-      <div class="tab-pane fade row g-4 py-5 row-cols-1 row-cols-lg-3" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+      <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
 
           <div class="card ms-3 col d-flex">
             <div id="carouselExample" class="carousel slide">

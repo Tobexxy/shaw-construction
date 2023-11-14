@@ -1,5 +1,16 @@
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.paul{
+    height: 66vh;
+}
 
 
 .logos{
@@ -44,8 +55,3 @@
 .card .img{
     max-width: 100%;
 }
-
-
-
-
-
