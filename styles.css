@@ -33,9 +33,10 @@
         flex: 0 0 calc(100%/3);
     }
     .card{
-        width:300px;
+        width:350px;
         height: auto;
         padding: 10px;
+        
     
     }
     .card .img{
@@ -46,12 +47,15 @@
 .carousel-inner{
     padding: 1rem;
 }
-.card{
-    width:500px;
-    height: auto;
-    padding: 10px;
 
-}
 .card .img{
     max-width: 100%;
+}
+.card{
+
+
+flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
 }
